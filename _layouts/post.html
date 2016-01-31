@@ -6,9 +6,16 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
+
+  <!-- Facebook Comments -->
+  {% unless page.disable_comments %} 
+  <hr/>
+  <h2>Comments</h2>
+  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-num-posts="2" data-width="600"></div>
+  {% endunless %}
 </div>
 
-<div class="related">
+<!-- <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
@@ -23,3 +30,4 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+ -->
