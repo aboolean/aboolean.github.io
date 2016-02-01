@@ -41,7 +41,7 @@ prose:
           element: "hidden"
           label: "Layout"
           value: "post"
-       - name: "title"
+      - name: "title"
         field:
           label: "Title"
           element: "text"
