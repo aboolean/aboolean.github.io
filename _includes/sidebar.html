@@ -3,10 +3,11 @@
     <div class="sidebar-about">
       <h1>
         <a href="{{ site.baseurl }}">
-          {{ site.title }}
+          <!-- {{ site.title }} -->
+          <i class="icon-logo_button"></i>
         </a>
       </h1>
-      <p class="lead">{{ site.description }}</p>
+      <!-- <p class="lead">{{ site.description }}</p> -->
     </div>
 
     <nav class="sidebar-nav">
@@ -26,6 +27,7 @@
         {% endif %}
       {% endfor %}
 
+      <hr>
       <!-- Social Media Links -->
       <a class="sidebar-nav-item" href="{{ site.links.github }}">
         <i class="fa fa-fw fa-github"></i>
