@@ -82,8 +82,8 @@ prose:
           element: "text"
           label: "Tags"
           placeholder: "Enter tags, separated by spaces"
-      - name: "Disable Comments"
+      - name: "disable_comments"
         field:
-          label: "disable_comments"
+          label: "Disable Comments"
           element: "checkbox"
-          value: "false"
+          value: false
