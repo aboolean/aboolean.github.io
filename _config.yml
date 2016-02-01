@@ -32,8 +32,8 @@ gems:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://aboolean.github.io'
-  media: 'images'
+  siteurl: 'http://aboolean.github.io/'
+  media: 'media'
   metadata:
     _posts:
       - name: "layout"
