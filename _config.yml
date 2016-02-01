@@ -36,6 +36,11 @@ prose:
   media: 'media'
   metadata:
     _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -81,4 +86,4 @@ prose:
         field:
           label: "disable_comments"
           element: "checkbox"
-          value: "yes"
+          value: "false"
