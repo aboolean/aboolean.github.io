@@ -20,8 +20,12 @@ avatar: https://avatars.githubusercontent.com/aboolean
 
 paginate:         5
 
-# Custom vars
-version:          2.1.0
+links:
+  github: https://github.com/aboolean/
+  instagram: http://instagram.com/ab001ean
+  facebook: http://facebook.com/andreaboulian
+  flickr: http://flickr.com/andreaboulian
+  linkedin: www.linkedin.com/in/andreaboulian
 
-github:
-  repo:           https://github.com/aboolean/aboolean.github.io
+gems:
+  - jemoji
