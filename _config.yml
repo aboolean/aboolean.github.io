@@ -29,3 +29,56 @@ links:
 
 gems:
   - jemoji
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://aboolean.github.io'
+  media: 'images'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          label: "Layout"
+          value: "post"
+       - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "Title"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          placeholder: "Description"
+      - name: "headline"
+        field:
+          element: "text"
+          label: "Headline"
+          placeholder: "Headline"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          value: personal
+          options:
+            - name: "Personal"
+              value: personal
+            - name: "Engineering"
+              value: engineering
+            - name: "Projects"
+              value: projects
+            - name: "Thoughts"
+              value: thoughts
+          alterable: true
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+      - name: "Disable Comments"
+        field:
+          label: "disable_comments"
+          element: "checkbox"
+          value: "yes"
